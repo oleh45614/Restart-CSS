@@ -1,0 +1,49 @@
+:root {
+    --main-color: #00FFFF;
+}
+
+body {
+    max-width: 300px;
+    margin: auto;
+}
+
+h1, h2, p {
+    margin: 0;
+    border: 0;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+p {
+    background-color: pink;
+}
+
+#chosen {
+    text-decoration: underline;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.border {
+    border: 1px solid blue;
+}
+
+div > p {
+    font-weight: bold;
+}
+
+div + p {
+    transform: rotate(180deg);
+}
+
+h1:hover, p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p::first-letter {
+    font-size: 2rem;
+}
